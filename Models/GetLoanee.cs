@@ -1,6 +1,6 @@
-using architectureTest.Models.CoreModel;
-using architectureTest.Models.Data;
 using AutoMapper;
+using MediatrRailwayExample.Models.CoreModel;
+using MediatrRailwayExample.Models.Data;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace architectureTest.Models
+namespace MediatrRailwayExample.Models
 {
     public class GetLoanee
     {

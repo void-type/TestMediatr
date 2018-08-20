@@ -1,4 +1,4 @@
-namespace architectureTest.Models.CoreModel
+namespace MediatrRailwayExample.Models.CoreModel
 {
     public class ValidationError : IValidationError
     {

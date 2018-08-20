@@ -1,8 +1,8 @@
-﻿using architectureTest.Models;
-using architectureTest.Models.CoreAspNet;
-using architectureTest.Models.CoreModel;
-using architectureTest.Models.Data;
-using AutoMapper;
+﻿using AutoMapper;
+using MediatrRailwayExample.Models;
+using MediatrRailwayExample.Models.CoreAspNet;
+using MediatrRailwayExample.Models.CoreModel;
+using MediatrRailwayExample.Models.Data;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace architectureTest
+namespace MediatrRailwayExample
 {
     public class Startup
     {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace architectureTest.Models.CoreModel
+namespace MediatrRailwayExample.Models.CoreModel
 {
     public class ActionResponse<TSuccess> : IActionResponse
     {

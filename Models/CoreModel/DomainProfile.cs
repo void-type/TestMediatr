@@ -1,7 +1,7 @@
-using architectureTest.Models.Data;
 using AutoMapper;
+using MediatrRailwayExample.Models.Data;
 
-namespace architectureTest.Models.CoreModel
+namespace MediatrRailwayExample.Models.CoreModel
 {
     public class DomainProfile : Profile
     {

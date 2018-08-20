@@ -1,6 +1,5 @@
-namespace architectureTest.Models.CoreModel
+namespace MediatrRailwayExample.Models.CoreModel
 {
     public interface IActionResponse : IFallible
-    {
-    }
+    { }
 }

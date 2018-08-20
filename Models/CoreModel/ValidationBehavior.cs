@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace architectureTest.Models.CoreModel
+namespace MediatrRailwayExample.Models.CoreModel
 {
     public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TResponse : IFallible, new()
     {

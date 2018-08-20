@@ -1,4 +1,4 @@
-namespace architectureTest.Models.Data
+namespace MediatrRailwayExample.Models.Data
 {
     public class Loanee
     {

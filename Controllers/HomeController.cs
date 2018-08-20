@@ -1,12 +1,12 @@
-﻿using architectureTest.Models;
-using architectureTest.Models.CoreAspNet;
+﻿using MediatrRailwayExample.Models;
+using MediatrRailwayExample.Models.CoreAspNet;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace architectureTest.Controllers
+namespace MediatrRailwayExample.Controllers
 {
     public class HomeController : Controller
     {

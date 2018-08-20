@@ -1,8 +1,8 @@
-using architectureTest.Models.CoreModel;
+using MediatrRailwayExample.Models.CoreModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 
-namespace architectureTest.Models.CoreAspNet
+namespace MediatrRailwayExample.Models.CoreAspNet
 {
     public class HttpActionResultResponder
     {

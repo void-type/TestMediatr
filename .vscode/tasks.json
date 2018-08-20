@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/architectureTest.csproj"
+                "${workspaceFolder}/MediatrRailwayExample.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
