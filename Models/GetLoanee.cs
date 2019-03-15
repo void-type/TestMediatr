@@ -33,11 +33,10 @@ namespace MediatrRailwayExample.Models
                     return failure;
                 }
 
-                var succcess = new Response
+                return new Response
                 {
                     Success = _mapper.Map<Loanee, LoaneeDto>(loanee)
                 };
-                return succcess;
             }
 
             private readonly LoaneeData _data;
@@ -62,12 +61,8 @@ namespace MediatrRailwayExample.Models
             {
                 if (string.IsNullOrEmpty(validatable.Name))
                 {
-                    return new List<IValidationError>()
-                    {
-                        new ValidationError { ErrorMessage = "Name is required.", FieldName = "nameField" }
-                    };
+                    yield return new ValidationError { ErrorMessage = "Name is required.", FieldName = "nameField" };
                 }
-                return new List<ValidationError>();
             }
         }
 
